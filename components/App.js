@@ -26,7 +26,7 @@ App = React.createClass({
                 }
             };
         xhr.send();
-        })
+        });
     },
  
     handleSearch: function(searchingText) {
